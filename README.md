@@ -19,3 +19,5 @@
     
     
     // 横竖屏适配请看demo
+
+![image](https://github.com/DYLAN-LWB/WBImageBrowser/blob/master/11.gif)  
