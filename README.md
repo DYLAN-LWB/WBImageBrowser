@@ -1,6 +1,6 @@
 # WBImageBrowser
 图片浏览器,控制器只支持横屏,图片浏览器可横屏,缩放,下载
-
+基于UICollectionView的pagingEnabled属性
 
     [WBImageBrowserView clearImagesCache];
     
