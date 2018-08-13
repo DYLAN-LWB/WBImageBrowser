@@ -125,7 +125,7 @@ static  NSString *cellID = @"cellID";
     cell.bgScrollView.delegate = self;
     cell.bgScrollView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     
-    cell.bgImageView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+    cell.bgImageView.frame = cell.bgScrollView.bounds;
     [cell.bgImageView setImageWithURL:[NSURL URLWithString:self.browserArray[indexPath.item][@"url"]]
                      placeholderImage:[UIImage imageNamed:@"place2"]
                             completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType) {
