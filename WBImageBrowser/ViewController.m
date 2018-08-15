@@ -57,7 +57,7 @@
     
     pictureBrowserView.orientation = self.interfaceOrientation;
     pictureBrowserView.viewController = self;
-    pictureBrowserView.startIndex = 2;  //开始索引
+    pictureBrowserView.startIndex = 1;  //开始索引
     [pictureBrowserView showInView:[UIApplication sharedApplication].delegate.window];
 }
 
